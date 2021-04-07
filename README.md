@@ -1,80 +1,40 @@
-# Kass
-Fake news elimination
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
 
 # Project Title
 
-Final project for the Building AI course
+Fake news elimination
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+A study was made recently that presented an interesting finding, only 49% percent of people who come across news online think that the news source is trustworthy. If the credibility of news is so abysmal, how can we determine signal from noise and act upon the information we see provided by different news outlets? To further exarcebate this issue, fake news is an ever increasing problem. Trust but verify (Our solution), is an AI based extension solution that attempts to combat the spread of fake news by evluating the credibility of news by cross-referencing a given news piece. 
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Our solution attempts to initially tailor to financial institutioins, because people within that domain have to make decisions that have very significant and long lasting ramifications. The problem we aim to solve is to help financial institutions & financial service providers decrease the likelihood of making decisions based on fake news. The problem could be seen as rather frequent and this topic is of extreme importance.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
+Our solution is a Extension based solution that is downloaded in to a given browser, the end user simply installs the plugin / extension and by doing so is able to acquire credibility data of a given news outlet whenever visiting one. The users are individuas who represent financial insitutioins or other financial professionals. 
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+The data is acquired by our AI, however initially we will have to manually install certain parameters. The initial parameters are for example a set amount of most popular and frequently utilized web sources of financial professionals. As more and more financial professionals begin to use the solution it is going feed the AI exponentially due to the flywheel phenomen.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Our solution does not solve the need for empowered decision making itself, as it only acts as an guide to decision making. When it comes to any possible ethical considerations, i would argue there is none. 
+
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Of course, what would be needed for growth is initial seed capital, after which heavy emphasis on marketing of the solution to financial instituions. 
+
 
 
 ## Acknowledgments
 
 * list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+Inspired by Jamk University of applied sciences. 
