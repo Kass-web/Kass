@@ -1,7 +1,6 @@
 
-# Project Title
+# Fake news elimination
 
-Fake news elimination
 
 ## Summary
 
