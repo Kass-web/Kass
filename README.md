@@ -1,4 +1,3 @@
-
 # Fake news elimination
 
 
